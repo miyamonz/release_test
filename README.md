@@ -22,3 +22,9 @@ githubの方で、tagごとにreleaseの説明などをつけることができ�
 - git checkout master
 
 これをすれば、masterのdstdirをrelease ブランチに出せる
+
+とおもったが、npm のgh-pages使ったほうがええな
+```bash
+$ $(npm bin)/gh-pages -d dst -b release
+```
+gh-pagesに限らず,-b でブランチが指定できる

@@ -1,0 +1,22 @@
+{
+  "name": "release_test",
+  "version": "1.0.0",
+  "description": "github のrelease機能を確認。qlcのいじったファイルをreleaseしたい",
+  "main": "aaaaa.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyamonz/release_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyamonz/release_test/issues"
+  },
+  "homepage": "https://github.com/miyamonz/release_test#readme",
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
