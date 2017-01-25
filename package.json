@@ -4,6 +4,7 @@
   "description": "github のrelease機能を確認。qlcのいじったファイルをreleaseしたい",
   "main": "aaaaa.js",
   "scripts": {
+    "release": "gh-pages -d dst -b release -g $filename",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

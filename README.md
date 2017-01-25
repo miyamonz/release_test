@@ -28,3 +28,11 @@ githubの方で、tagごとにreleaseの説明などをつけることができ�
 $ $(npm bin)/gh-pages -d dst -b release
 ```
 gh-pagesに限らず,-b でブランチが指定できる
+
+```json
+"release": "gh-pages -d dst -b release -g $filename"
+```
+をnpm scriptにかいて、
+`npm run release -- tagname`
+を実行でりりーすできる
+
