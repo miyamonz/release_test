@@ -1,0 +1,2 @@
+
+github のrelease機能を確認。qlcのいじったファイルをreleaseしたい
